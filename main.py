@@ -33,7 +33,9 @@ def chat():
 
                     chatting = False
                     print('Goodbye!')
-
+                else:
+                    print('Invalid input. Please try again.')
+                    prompt = input('What would you like to know?\nType "quit" to quit.\n').lower()
             else:
                 chatting = False
                 print('Goodbye!')
